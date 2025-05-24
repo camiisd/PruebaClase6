@@ -16,6 +16,7 @@ hint: have locally. This is usually caused by another repository pushing to
 hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+<<<<<<< HEAD
 
 User@CamiCamila MINGW64 ~/Desktop/ADACamila/PruebaClase6/PruebaClase6 (main)
 $ git pull origin main
@@ -30,3 +31,5 @@ From https://github.com/camiisd/PruebaClase6
 Auto-merging bulbasaur.txt
 CONFLICT (content): Merge conflict in bulbasaur.txt
 Automatic merge failed; fix conflicts and then commit the result.
+=======
+>>>>>>> 54817ae65100ff0b037cc409fab3e5c23411cca4
