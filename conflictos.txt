@@ -67,3 +67,23 @@ hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. If you want to integrate the remote changes,
 hint: use 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Dalim@DALY MINGW64 ~/OneDrive/Escritorio/ADA-TRABAJOS/clase6ejercitacion/PruebaClase6 (main)
+$ git add pikachu.txt
+warning: in the working copy of 'pikachu.txt', LF will be replaced by CRLF the next time Git touches it
+
+Dalim@DALY MINGW64 ~/OneDrive/Escritorio/ADA-TRABAJOS/clase6ejercitacion/PruebaClase6 (main)
+$ git commit -m "pikachu modificado"
+[main 77300ed] pikachu modificado
+ 1 file changed, 2 insertions(+)
+
+Dalim@DALY MINGW64 ~/OneDrive/Escritorio/ADA-TRABAJOS/clase6ejercitacion/PruebaClase6 (main)
+$ git push origin main
+To https://github.com/camiisd/PruebaClase6.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/camiisd/PruebaClase6.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
