@@ -33,3 +33,37 @@ CONFLICT (content): Merge conflict in bulbasaur.txt
 Automatic merge failed; fix conflicts and then commit the result.
 =======
 >>>>>>> 54817ae65100ff0b037cc409fab3e5c23411cca4
+
+User@CamiCamila MINGW64 ~/Desktop/ADACamila/PruebaClase6/PruebaClase6 (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 537 bytes | 67.00 KiB/s, done.
+From https://github.com/camiisd/PruebaClase6
+ * branch            main       -> FETCH_HEAD
+   b4fa65c..54817ae  main       -> origin/main
+Updating b4fa65c..54817ae
+error: Your local changes to the following files would be overwritten by merge:
+        conflictos.txt
+Please commit your changes or stash them before you merge.
+Aborting
+
+User@CamiCamila MINGW64 ~/Desktop/ADACamila/PruebaClase6/PruebaClase6 (main)
+$ git add conflictos.txt
+
+User@CamiCamila MINGW64 ~/Desktop/ADACamila/PruebaClase6/PruebaClase6 (main)
+$ git commit -m "sumando conflictos"
+[main 9b144d9] sumando conflictos
+ 1 file changed, 32 insertions(+)
+
+User@CamiCamila MINGW64 ~/Desktop/ADACamila/PruebaClase6/PruebaClase6 (main)
+$ git push origin main
+To https://github.com/camiisd/PruebaClase6.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/camiisd/PruebaClase6.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
