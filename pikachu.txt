@@ -1,3 +1,8 @@
 Modificar Contenido de archivo
+<<<<<<< HEAD
 pikachu amarillo
 electricidad
+=======
+Hola
+todo bien?
+>>>>>>> c7e3186958ab4b0bc14522101feb43d9f9442ab2
